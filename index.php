@@ -2,19 +2,17 @@
 
 require_once("vendor/autoload.php");
 
+use \Slim\Slim;
+use Spartacus\Page;
+
 $app = new \Slim\Slim();
 
 $app->config('debug', true);
 
 $app->get('/', function() {
-    
-	$sql= new Spartacus\DB\Sql();
 
-	$results = $sql->select("SELECT * FROM st_user");
-
-	echo json_encode($results);
-
-
+    $page = new Page();
+    $page->setTpl('index');
 
 });
 
