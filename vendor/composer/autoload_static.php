@@ -6,8 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3
 {
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/spartacus/php-classes/src',
+    public static $prefixLengthsPsr4 = array (
+        'S' => 
+        array (
+            'Spartacus\\' => 10,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Spartacus\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spartacus/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -41,7 +51,8 @@ class ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3::$prefixesPsr0;
             $loader->classMap = ComposerStaticInita59201c39b5f241d710dc7ffd38a0cc3::$classMap;
 

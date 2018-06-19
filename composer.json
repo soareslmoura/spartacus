@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\spartacus\\php-classes\\src"
+            "Spartacus\\": "vendor\\spartacus\\php-classes\\src"
         }
     }
 }
