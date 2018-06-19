@@ -10,7 +10,7 @@
     	"phpmailer/phpmailer":"5.2.22",
     	"slim/slim":"2.0",
     	"rain/raintpl":"3.0.0",
-        "twbs/bootstrap":"4.1.1"
+        "bootstrap":"4.1.1"
     },
     "autoload": {
         "psr-4": {

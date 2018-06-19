@@ -1,207 +1,148 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><!-- SLIDE -->
-<section id="slide" >
-    <div class="container" style="padding-top: 35px;">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active"><!-- 1 Item -->
-                    <img src="/res/images/sysImages/bull.jpg" alt="Bull" style="width:100%;" class="img-responsive">
-                    <div class="carousel-caption">
-                        <div class='slide-bull'>
-                            <h2 class="font-slideshow">Sua plataforma de controle diário</h2>
-                            <h5>Potencialize seus resultados tendo total controle de suas operações</h5>
-                            <a href="#" class="btn btn-custom btn-conheca-plano btn-lg">Assine o Premium agora mesmo</a>
+<?php if(!class_exists('Rain\Tpl')){exit;}?>
+<div class="probootstrap-main-content">
+    <section class="probootstrap-slider flexslider">
+        <ul class="slides">
+            <!-- class="overlay" -->
+            <li style="background-image: url(/spartacus/res/site/img/slider_1.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="probootstrap-slider-text text-center">
+                                <h1 class="probootstrap-heading probootstrap-animate mb20">We Are Creative Agency</h1>
+                                <div class="probootstrap-animate probootstrap-sub-wrap mb30">A new website template by <a href="https://uicookies.com/">uicookies.com</a> under license <a href="https://uicookies.com/license/">Creative Commons 3.0</a></div>
+                                <p class="probootstrap-animate"><a href="#" class="btn btn-ghost btn-ghost-white">Download This Template</a></p>
+                            </div>
                         </div>
                     </div>
-                </div>  <!-- /1 Item -->
-
-                <div class="item"><!-- 2 Item -->
-                    <img src="/res/images/sysImages/img1.jpg" alt="sys1" style="width:100%;" class="img-responsive">
-                    <div class="carousel-caption">
-
+                </div>
+            </li>
+            <!-- class="overlay" -->
+            <li style="background-image: url(/spartacus/res/site/img/slider_5.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="probootstrap-slider-text text-center">
+                                <h1 class="probootstrap-heading probootstrap-animate mb20">Award Winning Agency</h1>
+                                <div class="probootstrap-animate probootstrap-sub-wrap mb30">A new website template by <a href="https://uicookies.com/">uicookies.com</a> under license <a href="https://uicookies.com/license/">Creative Commons 3.0</a></div>
+                                <p class="probootstrap-animate"><a href="#" class="btn btn-ghost btn-ghost-white">Download This Template</a></p>
+                            </div>
+                        </div>
                     </div>
-                </div><!-- /2 Item -->
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div><!-- /SLIDE -->
-</section>
-
-<!-- =========   CONTEUDO =================== -->
-
-<section id="planos">
-    <div class="container" > <!-- PLANOS -->
-        <div class="row">
-            <div class="col-md-12" style="padding-bottom: 30px; padding-top: 30px">
-                <span style="padding: 0px 0% 0px 39%" class='nossos-planos' >Nossos Planos</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="probootstrap-section probootstrap-bg-white">
+        <div class="container-fluid">
+            <div class="section-heading text-center">
+                <h2 class="mt0 mb0">Let's Build Something Great</h2>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="panel panel-default" style="margin-left: 10px" >
-                    <div class="panel-heading font-demo-heading" id="panel-demo" style="padding: 10px 0% 5px 37%">
-                        Demo
+    </section>
+    <section class="probootstrap-half">
+        <div class="image-wrap">
+            <div class="image" style="background-image: url(/spartacus/res/site/img/slider_7.jpg);"></div>
+        </div>
+        <div class="text">
+            <p class="mb10 subtitle">Featured Work</p>
+            <h3 class="mt0 mb40">Watch Application</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb50">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p><a href="#" class="btn btn-ghost btn-ghost-white mb10">Read Full Case Study</a> &nbsp; <a href="#" class="btn btn-primary mb10">View All Portfolio</a></p>
+        </div>
+    </section>
+    <section class="probootstrap-half reverse">
+        <div class="image-wrap">
+            <div class="image" style="background-image: url(/spartacus/res/site/img/slider_6.jpg);"></div>
+        </div>
+        <div class="text">
+            <p class="mb10 subtitle">About Us</p>
+            <h3 class="mt0 mb40">Meet The Team</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="mb50">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <p><a href="#" class="btn btn-ghost btn-ghost-white mb10">Learn More</a></p>
+        </div>
+    </section>
+    <section class="probootstrap-half">
+        <div class="image-wrap">
+            <div class="image" style="background-image: url(/spartacus/res/site/img/slider_2.jpg);"></div>
+        </div>
+        <div class="text">
+            <p class="mb10 subtitle">Our Services</p>
+            <h3 class="mt0 mb40">What We Do</h3>
+            <div class="row mb20">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="service-item">
+                        <span class="number">1</span>
+                        <h4 class="mt0">Interface Design</h4>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
-                    <div class="panel-body" style="height: 160px;">
-                        <ul>
-                            <li>10 dias de acesso</li>
-
-                        </ul>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="service-item">
+                        <span class="number">2</span>
+                        <h4 class="mt0">User Experience</h4>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
-                    <div class="panel-footer">
-                        <a href="/cdemo" class="btn btn-lg btn-custom" id='botao-assinar-demo'>Testar</a>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="service-item">
+                        <span class="number">3</span>
+                        <h4 class="mt0">Development</h4>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="service-item">
+                        <span class="number">4</span>
+                        <h4 class="mt0">Product Strategy</h4>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
                 </div>
             </div>
+            <p><a href="#" class="btn btn-ghost btn-ghost-white mb10">See All Our Services</a></p>
+        </div>
+    </section>
 
-            <div class="col-md-4">
-                <div class="panel panel-default" >
-                    <div class="panel-heading font-demo-heading" id="panel-basic" style="padding: 0px 0% 0px 33%; color: white">
-                        Básico
-                    </div>
-                    <div class="panel-body">
-                        <ul>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <a href="#" class="btn btn-lg btn-custom" id='botao-assinar'>Assinar</a>
+    <section class="probootstrap-section probootstrap-bg-white">
+        <div class="container">
+            <!-- END row -->
+            <div class="row">
+                <div class="col-md-12 probootstrap-animate">
+                    <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth mt50">
+                        <div class="item">
+
+                            <div class="probootstrap-testimony-wrap">
+                                <figure>
+                                    <img src="/spartacus/res/site/img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com">
+                                </figure>
+                                <blockquote class="quote">&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite class="author">&mdash; Ferdinand A. Porsche <br> <span>Design Lead at AirBNB</span></cite></blockquote>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="probootstrap-testimony-wrap">
+                                <figure>
+                                    <img src="/spartacus/res/site/img/person_2.jpg" alt="Free Bootstrap Template by uicookies.com">
+                                </figure>
+                                <blockquote class="quote">&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite class="author">&mdash; Steve Jobs <br> <span>Co-Founder Square</span></cite></blockquote>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="probootstrap-testimony-wrap">
+                                <figure>
+                                    <img src="/spartacus/res/site/img/person_3.jpg" alt="Free Bootstrap Template by uicookies.com">
+                                </figure>
+                                <blockquote class="quote">&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite class="author">&mdash; Frank Chimero <br> <span>Creative Director at Twitter</span></cite></blockquote>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="panel panel-default" style="margin-right: 10px" >
-                    <div class="panel-heading font-demo-heading" id="panel-premium" style="padding: 0px 0% 0px 25%; color: white">
-                        Premium
-                    </div>
-                    <div class="panel-body">
-                        <ul>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                            <li>teste</li>
-                        </ul>
-                    </div>
-                    <div class="panel-footer">
-                        <a href="#" class="btn btn-lg btn-custom" id='botao-assinar'>Assinar</a>
-                    </div>
-                </div>
-            </div>
+            <!-- END row -->
         </div>
-    </div><!-- /PLANOS -->
-</section>
-
-
-<div class="container" id="sobre">
-
-    <div class="row">
-        <div class="col-md-12">
-            <span class="sobreSystraders">Sobre o Sys Traders</span>
-        </div>
-    </div>
-
-    <p>Sabemos que operar no Mercado Financeiro não é uma tarefa simples. Milhões de investidores e Day Traders perdem fortunas todos os anos
-        por inexperiência ou pura falta de informações</p>
-    <p>Essa falta de informação muitas vezes se resume a ausência de uma ferramenta que lhe permita enxergar os seus melhores e piores momentos, em quais stocks
-        ele se dá melhor, qual é o período do dia onde ele obtém os melhores resultados, quais os meses do ano ele teve seus melhores desempenhos, entre outras informações
-        importântes para o profissional que atua ou deseja atuar no mercado financeiro.</p>
-    <p>O Sys Trader é uma ferramenta indispensável para você, trader proffisional, que deseja operar na Market americana.
-        Sim, estamos falando da NASDAQ, DOW JONES E S&amp;P500!!! </p>
-    <p>Com ele você obterá a melhor performance com relatórios diversos, gráficos e o histórico das suas operações, tendo assim
-        todos os parâmetros necessários para fazer uma avaliação precisa do seu desempenho e conseguirá ver exatamente onde precisa melhorar.</p>
-
-    <p>O sistema dispõe de uma rede social, onde você poderá compartilhar seus resultados quando e se desejar, e ainda poderá ter o auxilio
-        de seu mentor ou do seu grupo de amigos, permitindo que compartilhem informações sobre Stocks ou movimentações do mercado.</p>
-
-    <p>Venha fazer parte do seleto mercado americano com o maior número de informações possíveis.</p>
-
+    </section>
 </div>
 
-<!-- DEPOIMENTOS -->
-
-
-<div class="container">
-    <div class="row div_depoimentos">
-
-        <div class="col-md-12" style="padding-left: 500px;">
-            <h2>Depoimentos</h2>
-        </div>
-
-        <div class="col-md-3">
-            <div class="panel panel-default" style="margin-left: 10px" >
-                <div class="panel-heading" style="padding: 10px 0% 5px 37%">
-                    Depoimento 1
-                </div>
-                <div class="panel-body" style="height: 160px;">
-                    <ul>
-                        <li>Depoimento</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="panel panel-default" style="margin-left: 10px" >
-                <div class="panel-heading" style="padding: 10px 0% 5px 37%">
-                    Depoimento 2
-                </div>
-                <div class="panel-body" style="height: 160px;">
-                    <ul>
-                        <li>Depoimento</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="panel panel-default" style="margin-left: 10px" >
-                <div class="panel-heading" style="padding: 10px 0% 5px 37%">
-                    Depoimento 3
-                </div>
-                <div class="panel-body" style="height: 160px;">
-                    <ul>
-                        <li>Depoimento</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="panel panel-default" style="margin-left: 10px" >
-                <div class="panel-heading" style="padding: 10px 0% 5px 37%">
-                    Depoimento 4
-                </div>
-                <div class="panel-body" style="height: 160px;">
-                    <ul>
-                        <li>Depoimento</li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
