@@ -13,12 +13,12 @@ class Page
         "data" => []
     ];
 
-    public function __construct($opts = array())
+    public function __construct($opts = array(), $tpl_dir = "/spartacus/views/")
     {
         $this->options = array_merge($this->defaults, $opts);
         // config
         $config = array(
-            "tpl_dir" => $_SERVER["DOCUMENT_ROOT"] . "/spartacus/views/",
+            "tpl_dir" => $_SERVER["DOCUMENT_ROOT"] .$tpl_dir,
             "cache_dir" => $_SERVER["DOCUMENT_ROOT"] . "/spartacus/views-cache/",
             "debug" => false // set to false to improve the speed
         );

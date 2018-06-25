@@ -1,52 +1,77 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
+
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Spartacus Traders</title>
-    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="/spartacus/res/site/css/styles-merged.css">
-    <link rel="stylesheet" href="/spartacus/res/site/css/style.min.css">
-    <link rel="stylesheet" href="/spartacus/res/site/css/custom.css">
+    <!-- Bootstrap core CSS -->
+    <link href="res/site/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-    <script src="/spartacus/res/site/js/vendor/html5shiv.min.js"></script>
-    <script src="/spartacus/res/site/js/vendor/respond.min.js"></script>
-    <![endif]-->
+    <!-- Custom fonts for this template -->
+    <link href="res/site/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='res/site/css/personal.css' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="res/site/css/agency.css" rel="stylesheet">
+
 </head>
-<body>
 
-<!-- START: header -->
+<body id="page-top">
 
-<div class="probootstrap-loader"></div>
-
-<header role="banner" class="probootstrap-header">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav" style="background: rgba(0,0,0,0.6); padding-top: 40px; padding-bottom: 22px; border: none; height: 100px">
     <div class="container">
-        <a href="index.html" class="probootstrap-logo">Pixels<span>.</span></a>
+        <a class="navbar-brand js-scroll-trigger img-logo" href="#page-top"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Menu do Site">
+            menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#sobre">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#loja">Treinamento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="drop-entrar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Entrar</a>
+                    <div class="dropdown-menu" aria-labelledby="linkDrop" style="padding: 15px 15px">
+                        <form style="width: 180px;">
+                            <div>
+                                <label style="font-family: Arial, Helvetica, sans-serif; font-size: 1.2em; font-style: oblique">Área do Aluno</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control mr-sm-2" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control mr-sm-2" placeholder="Senha">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary my-2 my-sm-2">Entrar</button>
+                            </div>
 
-        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
-        <div class="mobile-menu-overlay"></div>
 
-        <nav role="navigation" class="probootstrap-nav hidden-xs">
-            <ul class="probootstrap-main-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+
+                        </form>
+
+                    </div>
+                </li>
+
             </ul>
-            <div class="extra-text visible-xs">
-                <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
-                <h5>Connect</h5>
-                <ul class="social-buttons">
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
-                    <li><a href="#"><i class="icon-instagram2"></i></a></li>
-                </ul>
-            </div>
-        </nav>
+        </div>
     </div>
-</header>
-<!-- END: header -->
+</nav>

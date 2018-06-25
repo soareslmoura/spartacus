@@ -1,148 +1,393 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?>
-<div class="probootstrap-main-content">
-    <section class="probootstrap-slider flexslider">
-        <ul class="slides">
-            <!-- class="overlay" -->
-            <li style="background-image: url(/spartacus/res/site/img/slider_1.jpg);">
-                <div class="container">
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!-- Header -->
+<header class="masthead">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading text-uppercase" >Venha fazer parte do maior mercado do mundo!</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Saiba Mais</a>
+        </div>
+    </div>
+</header>
+
+<!-- Services -->
+<section id="loja">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Nossos Serviços</h2>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+                <h4 class="service-heading">Treinamento Presencial</h4>
+                <p class="text-muted">Treinamento presencial ministrado em 2 dias mais 3 mêses de acesso à nossa sala online para resolução de dúvidas e apliação do conteúdo.</p>
+            </div>
+            <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+                <h4 class="service-heading">Treinamento On-line</h4>
+                <p class="text-muted">Acesso ao nosso treinamento gravado com mais de 20h de vídeos em FULL-HD mais 3 mêses de acesso à nossa sala online para resolução de dúvidas e apliação do conteúdo.</p>
+            </div>
+            <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+                <h4 class="service-heading">Mentoria</h4>
+                <p class="text-muted">Pacotes de 5, 10 e 20 horas de mentoria individual onde o aluno poderá ter atenção exclusiva para sanar suas dúvidas ou ter acesso a conteúdos novos de forma personalizada
+                    para que ele possa acompanhar e aprender tudo no seu tempo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Grid -->
+<section class="bg-light" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Loja</h2>
+                <h3 class="section-subheading text-muted">Compre aqui o seu treinamento ou sua mentoria.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Presencial</h4>
+                    <p class="text-muted">Illustration</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Online</h4>
+                    <p class="text-muted">Graphic Design</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Mentoria - 5 horas</h4>
+                    <p class="text-muted">Identity</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Mentoria - 10 horas</h4>
+                    <p class="text-muted">Branding</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Mentoria - 20 horas</h4>
+                    <p class="text-muted">Website Design</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>+ 1 mês de acesso</h4>
+                    <p class="text-muted">Photography</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="sobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Sobre nós</h2>
+                <h3 class="section-subheading text-muted">Um pouco da nossa história</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2012</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2014</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>Be Part
+                                <br>Of Our
+                                <br>Story!</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team
+<section class="bg-light" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="res/site/img/team/1.jpg" alt="">
+                    <h4>Kay Garland</h4>
+                    <p class="text-muted">Lead Designer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="res/site/img/team/2.jpg" alt="">
+                    <h4>Larry Parker</h4>
+                    <p class="text-muted">Lead Marketer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="res/site/img/team/3.jpg" alt="">
+                    <h4>Diana Pertersen</h4>
+                    <p class="text-muted">Lead Developer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+ Clients
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img class="img-fluid d-block mx-auto" src="res/site/img/logos/envato.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img class="img-fluid d-block mx-auto" src="res/site/img/logos/designmodo.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img class="img-fluid d-block mx-auto" src="res/site/img/logos/themeforest.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="#">
+                    <img class="img-fluid d-block mx-auto" src="res/site/img/logos/creative-market.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- Contact -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Fale conosco</h2>
+                <h3 class="section-subheading text-muted">Estamos à sua disposição</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="probootstrap-slider-text text-center">
-                                <h1 class="probootstrap-heading probootstrap-animate mb20">We Are Creative Agency</h1>
-                                <div class="probootstrap-animate probootstrap-sub-wrap mb30">A new website template by <a href="https://uicookies.com/">uicookies.com</a> under license <a href="https://uicookies.com/license/">Creative Commons 3.0</a></div>
-                                <p class="probootstrap-animate"><a href="#" class="btn btn-ghost btn-ghost-white">Download This Template</a></p>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="phone" type="tel" placeholder="Celular *" required="required" data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </li>
-            <!-- class="overlay" -->
-            <li style="background-image: url(/spartacus/res/site/img/slider_5.jpg);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="probootstrap-slider-text text-center">
-                                <h1 class="probootstrap-heading probootstrap-animate mb20">Award Winning Agency</h1>
-                                <div class="probootstrap-animate probootstrap-sub-wrap mb30">A new website template by <a href="https://uicookies.com/">uicookies.com</a> under license <a href="https://uicookies.com/license/">Creative Commons 3.0</a></div>
-                                <p class="probootstrap-animate"><a href="#" class="btn btn-ghost btn-ghost-white">Download This Template</a></p>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Sua mensagem" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensagem</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section class="probootstrap-section probootstrap-bg-white">
-        <div class="container-fluid">
-            <div class="section-heading text-center">
-                <h2 class="mt0 mb0">Let's Build Something Great</h2>
+                </form>
             </div>
         </div>
-    </section>
-    <section class="probootstrap-half">
-        <div class="image-wrap">
-            <div class="image" style="background-image: url(/spartacus/res/site/img/slider_7.jpg);"></div>
-        </div>
-        <div class="text">
-            <p class="mb10 subtitle">Featured Work</p>
-            <h3 class="mt0 mb40">Watch Application</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p class="mb50">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p><a href="#" class="btn btn-ghost btn-ghost-white mb10">Read Full Case Study</a> &nbsp; <a href="#" class="btn btn-primary mb10">View All Portfolio</a></p>
-        </div>
-    </section>
-    <section class="probootstrap-half reverse">
-        <div class="image-wrap">
-            <div class="image" style="background-image: url(/spartacus/res/site/img/slider_6.jpg);"></div>
-        </div>
-        <div class="text">
-            <p class="mb10 subtitle">About Us</p>
-            <h3 class="mt0 mb40">Meet The Team</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p class="mb50">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p><a href="#" class="btn btn-ghost btn-ghost-white mb10">Learn More</a></p>
-        </div>
-    </section>
-    <section class="probootstrap-half">
-        <div class="image-wrap">
-            <div class="image" style="background-image: url(/spartacus/res/site/img/slider_2.jpg);"></div>
-        </div>
-        <div class="text">
-            <p class="mb10 subtitle">Our Services</p>
-            <h3 class="mt0 mb40">What We Do</h3>
-            <div class="row mb20">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="service-item">
-                        <span class="number">1</span>
-                        <h4 class="mt0">Interface Design</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="service-item">
-                        <span class="number">2</span>
-                        <h4 class="mt0">User Experience</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="clearfix visible-sm-block"></div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="service-item">
-                        <span class="number">3</span>
-                        <h4 class="mt0">Development</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="service-item">
-                        <span class="number">4</span>
-                        <h4 class="mt0">Product Strategy</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-            </div>
-            <p><a href="#" class="btn btn-ghost btn-ghost-white mb10">See All Our Services</a></p>
-        </div>
-    </section>
-
-    <section class="probootstrap-section probootstrap-bg-white">
-        <div class="container">
-            <!-- END row -->
-            <div class="row">
-                <div class="col-md-12 probootstrap-animate">
-                    <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth mt50">
-                        <div class="item">
-
-                            <div class="probootstrap-testimony-wrap">
-                                <figure>
-                                    <img src="/spartacus/res/site/img/person_1.jpg" alt="Free Bootstrap Template by uicookies.com">
-                                </figure>
-                                <blockquote class="quote">&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite class="author">&mdash; Ferdinand A. Porsche <br> <span>Design Lead at AirBNB</span></cite></blockquote>
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-testimony-wrap">
-                                <figure>
-                                    <img src="/spartacus/res/site/img/person_2.jpg" alt="Free Bootstrap Template by uicookies.com">
-                                </figure>
-                                <blockquote class="quote">&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite class="author">&mdash; Steve Jobs <br> <span>Co-Founder Square</span></cite></blockquote>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="probootstrap-testimony-wrap">
-                                <figure>
-                                    <img src="/spartacus/res/site/img/person_3.jpg" alt="Free Bootstrap Template by uicookies.com">
-                                </figure>
-                                <blockquote class="quote">&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite class="author">&mdash; Frank Chimero <br> <span>Creative Director at Twitter</span></cite></blockquote>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- END row -->
-        </div>
-    </section>
-</div>
-
+    </div>
+</section>
