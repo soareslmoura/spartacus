@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>Spartacus Traders</title>
+    <link rel="icon" href="favicon.ico">
 
     <!-- Bootstrap core CSS -->
     <link href="res/site/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,18 +51,21 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="drop-entrar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Entrar</a>
                     <div class="dropdown-menu" aria-labelledby="linkDrop" style="padding: 15px 15px">
-                        <form style="width: 180px;">
+                        <form style="width: 180px;" action="std/login" method="post">
                             <div>
                                 <label style="font-family: Arial, Helvetica, sans-serif; font-size: 1.2em; font-style: oblique">Área do Aluno</label>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control mr-sm-2" placeholder="E-mail">
+                                <input type="email" class="form-control mr-sm-2" placeholder="E-mail" name="email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control mr-sm-2" placeholder="Senha">
+                                <input type="password" class="form-control mr-sm-2" placeholder="Senha" name="pass">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary my-2 my-sm-2">Entrar</button>
+                            </div>
+                            <div>
+                                <label style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; font-style: oblique">esqueceu sua senha?</label>
                             </div>
 
 
