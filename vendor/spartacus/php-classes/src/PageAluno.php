@@ -12,7 +12,7 @@ namespace Spartacus;
 class PageAluno extends Page
 {
 
-    public function __construct(array $opts = array(), $tpl_dir = "//spartacus/views/aluno/")
+    public function __construct(array $opts = array(), $tpl_dir = "/spartacus/views/aluno/")
     {
         parent::__construct($opts, $tpl_dir);
     }

@@ -2,7 +2,7 @@
 <header class="masthead">
     <div class="container">
         <div class="intro-text">
-            <div class="intro-heading text-uppercase" >Venha fazer parte do maior mercado do mundo!</div>
+            <div class="intro-heading text-uppercase">Venha fazer parte do maior mercado do mundo!</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Saiba Mais</a>
         </div>
     </div>
