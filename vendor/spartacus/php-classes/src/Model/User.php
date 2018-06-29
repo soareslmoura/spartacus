@@ -37,8 +37,7 @@ class User extends Model
                 ":EMAIL" => $email
             ));
 
-            var_dump($results);
-            exit;
+
         }
 
 
@@ -71,7 +70,7 @@ class User extends Model
             exit;
         }else
         {
-            header("location:/");
+            header("location:/spartacus/adm/login");
             exit;
         }
     }
@@ -103,7 +102,7 @@ class User extends Model
         )
         {
 
-            header("location: /spartacus");
+            header("location: /spartacus/adm/login");
             exit;
         }
     }
@@ -111,5 +110,10 @@ class User extends Model
     public static function logout()
     {
         $_SESSION[USER::SESSIONSTD] = null;
+    }
+
+    public static function logoutadm()
+    {
+        $_SESSION[USER::SESSIONADM] = null;
     }
 }

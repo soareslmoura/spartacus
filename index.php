@@ -75,6 +75,21 @@ $app->post('/adm/login', function() {
     exit;
 });
 
+$app->get('/adm/logout',function (){
+
+    User::logoutadm();
+    header("location:/spartacus");
+    exit;
+});
+
+$app->get('/adm/users', function (){
+
+    USER::verifyLoginAdm();
+    $page = new PageAdm();
+    $page->setTpl('users');
+
+});
+
 $app->run();
 
  ?>
