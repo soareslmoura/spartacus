@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98dc8f00-b1a6-4181-ab46-5707b152ea61" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/views/admin/prod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spartacus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spartacus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/spartacus/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/spartacus/php-classes/src/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/spartacus/php-classes/src/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/spartacus/php-classes/src/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/footer.27f979a7b9363db2a6f34387ea29d474.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/footer.50b219af740a62984cb27f170b2b3d5e.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/footer.5997c26a7ea48faf5cf33f2a95774f5c.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/footer.aa42ec0e69127d47c43f8217a8dd7d30.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.27f979a7b9363db2a6f34387ea29d474.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.50b219af740a62984cb27f170b2b3d5e.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.5997c26a7ea48faf5cf33f2a95774f5c.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.aa42ec0e69127d47c43f8217a8dd7d30.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/index.27f979a7b9363db2a6f34387ea29d474.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/index.50b219af740a62984cb27f170b2b3d5e.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/index.5997c26a7ea48faf5cf33f2a95774f5c.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/index.aa42ec0e69127d47c43f8217a8dd7d30.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/login.50b219af740a62984cb27f170b2b3d5e.rtpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="98dc8f00-b1a6-4181-ab46-5707b152ea61" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +17,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://E:/spartacus/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+            <state relative-caret-position="587">
+              <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
               <folding>
                 <element signature="e#62#77#0#PHP" expanded="true" />
               </folding>
@@ -344,12 +318,12 @@
       <workItem from="1530012123254" duration="21270000" />
       <workItem from="1530187335185" duration="6717000" />
       <workItem from="1530199128113" duration="8649000" />
-      <workItem from="1530271132287" duration="2345000" />
+      <workItem from="1530271132287" duration="2511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97412000" />
+    <option name="totallyTimeSpent" value="97578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -644,8 +618,8 @@
     </entry>
     <entry file="file://E:/spartacus/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+        <state relative-caret-position="587">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
           <folding>
             <element signature="e#62#77#0#PHP" expanded="true" />
           </folding>
